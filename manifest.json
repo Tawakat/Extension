@@ -1,0 +1,23 @@
+﻿{
+	"name": "Tawaliive",
+	"description": "Notifie si le streamer Tawaliive est en train de stream sur Twitch.",
+	"version": "1.0",
+	"manifest_version" : 2,
+	"icons": {
+		"48": "icons/tawaliive_48.png",
+		"128": "icons/tawaliive_128.png"
+	},
+	"permissions": [
+    "notifications",
+    "https://api.twitch.tv/"
+	],
+	"browser_action": {
+		"default_title": "Tawaliive",
+		"default_icon": {
+			"48": "icons/tawaliive_48.png"
+		}
+	},
+	"background": {
+		"scripts": ["background.js"]
+	}
+}
